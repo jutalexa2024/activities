@@ -1,103 +1,110 @@
 header {
-    width: 100%;
-    background-color: rgb(3, 112, 72);
-    position: fixed; /* Fixes the header to the top */
-    top: 0;          /* Positions the header at the very top */
-    width: 100%;     /* Full width of the viewport */
-    color: white;    /* Text color */
-    z-index: 1000;   /* Keeps the header on top of other elements */
-    border-bottom: 5px solid #fdb665;
+   width: 100%;
+   background-color: rgb(3, 112, 72);
+   position: fixed; /* Fixes the header to the top */
+   top: 0;          /* Positions the header at the very top */
+   left: 0;
+   color: white;    /* Text color */
+   z-index: 1000;   /* Keeps the header on top of other elements */
+   border-bottom: 5px solid #fdb665;
+
+ }
+
+ .section0{
+   margin-top: 125px;
+ }
  
-  }
-
-  .section0{
-    margin-top: 125px;
-  }
-  
- h2{
-    text-align: left;
-  }
-
- h3{
-    padding-top: 30px;
-    text-align: center;
+h2{
+   text-align: left;
  }
 
- h1{
-    text-align: center;
+h3{
+   padding-top: 30px;
+   text-align: center;
+}
+
+h1{
+   text-align: center;
+}
+
+nav a {
+   color: white;          /* Default link color */
+   text-decoration: none;   /* Remove underline */
+   padding: 10px 15px;      /* Add some padding */
+   display: inline-block;   /* Display inline-block for padding to take effect */
+   
  }
 
- nav a {
-    color: white;          /* Default link color */
-    text-decoration: none;   /* Remove underline */
-    padding: 10px 15px;      /* Add some padding */
-    display: inline-block;   /* Display inline-block for padding to take effect */
-    
-  }
+.img1{
+   height: 250px;
+   width: 250px;
+}
 
- .img1{
-    height: 250px;
-    width: 250px;
- }
-
- .long-input {
-    width: 175px;
-    height: 10px;
+.long-input {
+   width: 175px;
+   height: 10px;
 }
 
 
 form {
-        max-width: 400px;
-        margin: 0 auto; /* Center the form on the page */
-        padding: 20px;
-        border: 4px solid #0b0600;
-        border-radius: 20px;
-        text-align: center;
+       max-width: 400px;
+       margin: 0 auto; /* Center the form on the page */
+       padding: 20px;
+       border: 4px solid #0b0600;
+       border-radius: 20px;
+       text-align: center;
+       left: 0;
 }
 
 .section1{
-
-    background-color: #fdb665;
+   background-color: #fdb665;
 }
 
 footer{
-    background-color:  rgb(3, 112, 72);
+
+  background-color:  rgb(3, 112, 72);
+  
 }
 
- p{
-    text-align: center;
+footer p {
+  margin-top: 0px;
+  
+}
+
+p{
+   text-align: center;
+}
+
+button{
+   background-color: rgb(34, 148, 107);
+}
+ 
+ul {
+   text-align: right;
+ }
+ 
+ /* List items in navigation bar */
+ li {
+   /* TODO: Add your code here */
+   list-style-type: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 10px;
+ }
+ 
+ /* Boxes */
+ img {
+   /* TODO: Add your code here */
+   display:block;
+   margin: 0 auto;
  }
 
- button{
-    background-color: rgb(34, 148, 107);
+
+ /* Box 3 */
+ #image-3 {
+   /* TODO: Add your code here */
+   display: block;
+   margin: 0 auto; /* Top, Right, Bottom, Left --- Margin can explicitly be assigned like Margin-Top (bottom, right,left) */
+   
  }
-  
- ul {
-    text-align: right;
-  }
-  
-  /* List items in navigation bar */
-  li {
-    /* TODO: Add your code here */
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-  }
-  
-  /* Boxes */
-  img {
-    /* TODO: Add your code here */
-    display:block;
-    margin: 0 auto;
-  }
-
-
-  /* Box 3 */
-  #image-3 {
-    /* TODO: Add your code here */
-    display: block;
-    margin: 0 auto; /* Top, Right, Bottom, Left --- Margin can explicitly be assigned like Margin-Top (bottom, right,left) */
-    
-  }
-  
+ 
